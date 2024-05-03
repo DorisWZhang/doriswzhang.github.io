@@ -1,0 +1,80 @@
+.home {
+    width: 100%;
+    height: 100vh;
+    background-color: #AAC0EC;
+}
+
+.intro {
+    color: white;
+    font-size: 80px;
+    font-family: ConcertOne;
+    padding-top: 30vh;
+    padding-left: 10vh;
+}
+
+.prompt {
+    padding-top: 2vh;
+    font-family:"FiraSansExtraLight";
+    font-size: 50px;
+    color: white;
+    padding-left: 10vh;
+}
+
+.buttons {
+    padding-top: 2vh;
+}
+
+.media {
+    margin-top: 1vh;
+    margin-right: 7vh;
+    text-align: center;
+    height: 70px;
+    width: 70px;
+    cursor: pointer;
+    border-radius: 35px 35px 35px 35px;
+    background-color: #FFE7E9;
+    border-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1),
+              0 8px 12px rgba(0, 0, 0, 0.1),
+              0 12px 18px rgba(0, 0, 0, 0.1),
+              0 16px 24px rgba(0, 0, 0, 0.1);
+}
+
+.resume {
+    align-content: top;
+    width: 200px;
+    height: 60px;
+    font-family: "Comfortaa";
+    background-color: #AAC0EC;
+    border-color: #FFE7E9;
+    font-size: 30px;
+    color: white;
+    border-radius: 35px 35px 35px 35px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1),
+              0 8px 12px rgba(0, 0, 0, 0.1),
+              0 12px 18px rgba(0, 0, 0, 0.1),
+              0 16px 24px rgba(0, 0, 0, 0.1);
+}
+
+.resume:hover {
+
+}
+
+
+
+@font-face {
+    font-family: 'FiraSansExtraLight'; 
+    src: url('../assets/fonts/FiraSans-ExtraLight.ttf') format('truetype'); /* Adjust the path and format */
+}
+
+@font-face {
+    font-family: 'FiraSansExtraLightItalic'; 
+    src: url('../assets/fonts/FiraSans-ExtraLightItalic.ttf') format('truetype'); /* Adjust the path and format */
+}
+
+@font-face {
+    font-family: 'ConcertOne'; 
+    src: url('../assets/fonts/ConcertOne-Regular.ttf') format('truetype'); /* Adjust the path and format */
+}

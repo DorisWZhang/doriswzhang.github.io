@@ -1,0 +1,24 @@
+.navbar {
+    height: 100px;
+    width: 100%;
+    background-color: #AAC0EC;
+    position: fixed;
+}
+
+.links {
+    margin-top: 4vh;
+    margin-left: 75vh;
+    font-size: 25px;
+    font-family: "Comfortaa";
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding-left: 70px;
+}
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('../assets/fonts/Comfortaa-VariableFont_wght.ttf') format('truetype'); /* Adjust the path and format */
+
+}
