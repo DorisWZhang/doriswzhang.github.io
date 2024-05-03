@@ -1,8 +1,20 @@
-.home {
-    width: 100%;
-    height: 100vh;
-    background-color: #AAC0EC;
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
+
+.home {
+    flex: 1; 
+    width: 100%;
+    min-height: 100%;
+    background-color: #AAC0EC;
+    padding: 0; /* Ensure padding is 0 */
+    margin: 0; /* Ensure margin is 0 */
+    display: flex;
+    flex-direction: column; /* Stack child elements vertically */
+    
+    }
 
 .intro {
     color: white;
@@ -10,6 +22,12 @@
     font-family: ConcertOne;
     padding-top: 30vh;
     padding-left: 10vh;
+    text-shadow: 0 4px 5px lightgray;
+}
+
+.fade-in {
+    opacity: 0;
+    animation: fadeInAnimation 1.5s ease-in forwards; /* Adjust the duration and timing function as needed */
 }
 
 .prompt {
@@ -18,11 +36,13 @@
     font-size: 50px;
     color: white;
     padding-left: 10vh;
+    text-shadow: 0 3px 5px lightgray;
 }
 
 .buttons {
     padding-top: 2vh;
 }
+
 
 .media {
     margin-top: 1vh;
@@ -42,12 +62,14 @@
 
 .resume {
     align-content: top;
-    width: 200px;
-    height: 60px;
+    width: 235px;
+    height: 70px;
+    position: relative;
+    top: -1vh;
     font-family: "Comfortaa";
     background-color: #AAC0EC;
     border-color: #FFE7E9;
-    font-size: 30px;
+    font-size: 35px;
     color: white;
     border-radius: 35px 35px 35px 35px;
     cursor: pointer;
@@ -63,7 +85,15 @@
 }
 
 
+@keyframes fadeInAnimation {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
 
+}
 @font-face {
     font-family: 'FiraSansExtraLight'; 
     src: url('../assets/fonts/FiraSans-ExtraLight.ttf') format('truetype'); /* Adjust the path and format */

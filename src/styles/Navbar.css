@@ -17,8 +17,8 @@ a {
     text-decoration: none;
     padding-left: 70px;
 }
+
 @font-face {
     font-family: 'Comfortaa';
-    src: url('../assets/fonts/Comfortaa-VariableFont_wght.ttf') format('truetype'); /* Adjust the path and format */
-
+    src: url('../assets/fonts/Comfortaa-VariableFont_wght.ttf') format('truetype');
 }
