@@ -7,6 +7,12 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import About from './About';
 import Projects from './Projects';
+import Resume from "../assets/Zhang_Doris_Resume.pdf"
+
+
+function onResumeClick() {
+  window.open(Resume);
+}
 
 function Home() {
 
@@ -41,7 +47,7 @@ function Home() {
                 <button className='media' onClick={() => window.open('https://www.linkedin.com/in/doris-zhang-b3837a288/')}>
                 <LinkedInIcon style={{ fontSize: '45px', color: 'white' }}/></button>
             
-                <button className='resume'><span>RESUME</span></button>   
+                <button className='resume' onClick={onResumeClick}><span>RESUME</span></button>   
              </div>
                 
             </div>

@@ -12,10 +12,15 @@
     font-family: "Comfortaa";
 }
 
-a {
+.links a {
     color: white;
     text-decoration: none;
     padding-left: 70px;
+}
+
+.links a:hover {
+    color: #FFE7E9;
+    text-shadow: 0 3px 5px lightgray;
 }
 
 @font-face {

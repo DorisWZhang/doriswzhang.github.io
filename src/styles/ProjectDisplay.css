@@ -1,0 +1,96 @@
+.project {
+    font-family: "Comfortaa";
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex: 50%;
+    justify-content: left;
+    flex-direction: column;
+    background-color: #AAC0EC;
+  }
+  
+  .project h1 {
+    text-align: center;
+    margin-top: 15vh;
+    background-color: #AAC0EC;
+    font-size: 50px;
+  }
+  
+  .aboutproj{
+    display:inline-flex;
+  }
+  
+  
+  .proj-image{
+      margin-left: 5%;
+      height: calc(100vh - 37vh);
+      background-color: #AAC0EC;    
+  }
+  
+  .project img{
+    width: 90%;
+    height: calc(100vh - 50vh);
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    color: #f0f0f0;
+    border-radius: 20px 20px 20px 20px;
+    border: 3px solid #FFE7E9;
+    margin-top: 5%;
+    box-shadow: 0 0 8px 3px #FFE7E9;
+  }
+  
+  
+  .project svg {
+    font-size: 50px;
+    color: white;
+  }
+  
+  .desc{
+    height: 100%;
+    width:auto;
+    flex: 50%;
+    margin-top: 4%;
+    margin-bottom: 0px;
+    margin-left: 6%;
+    margin-right: 5%;
+    background-color: #AAC0EC;
+    color:white;
+    text-align:left;
+    font-size: 25px;
+    line-height:  40px;
+  }
+  
+  .desc .name{
+    font-size: 40px;
+    color: white;
+    
+  }
+
+  .desc .about{
+    background-color: white;
+    color:white;
+    font: 35px;
+    margin-top: 0px;
+    
+  }
+  
+  .desc b{
+    margin-top: 0px;
+  
+  }
+  
+  .projlink{
+    text-decoration: underline;
+    font-size: 35px;
+    cursor: pointer;
+  }
+  
+  .projlink:hover{
+    color: #FFE7E9;
+  }
+  
+  @font-face {
+    font-family: 'Comfortaa';
+    src: url('../assets/fonts/Comfortaa-VariableFont_wght.ttf') format('truetype');
+}
