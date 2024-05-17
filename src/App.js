@@ -11,7 +11,7 @@ function App() {
     <Router>
       <Navbar></Navbar>
       <Routes> 
-          <Route path="/doriswz.github.io" element={<Home />}/>
+          <Route path="/doriswzhang.github.io" element={<Home />}/>
           <Route path="/project/:id" element={<ProjectDisplay/>}/>
           <Route path='/projects' element={<Projects/>}/>
         </Routes>

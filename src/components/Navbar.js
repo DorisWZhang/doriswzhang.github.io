@@ -9,9 +9,9 @@ function onResumeClick() {
 
 function Navbar() {
     const handleLinkClick = (id) => {
-        if (window.location.pathname !== "/doriswz.github.io") {
+        if (window.location.pathname !== "/doriswzhang.github.io") {
             // If not on home page, redirect to home page and scroll after it's loaded
-            window.location.href = "/doriswz.github.io";
+            window.location.href = "/doriswzhang.github.io";
             window.onload = () => {
             setTimeout(() => {
                 const element = document.getElementById(id);
@@ -43,7 +43,7 @@ function Navbar() {
 
 
     useEffect(() => {
-        if (window.location.pathname !== "/doriswz.github.io") {
+        if (window.location.pathname !== "/doriswzhang.github.io") {
             // If redirected from another page, scroll to the section after the home page is loaded
             const id = window.location.hash.substring(1);
             window.onload = () => {
