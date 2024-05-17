@@ -7,7 +7,7 @@
 
 .links {
     margin-top: 4vh;
-    margin-left: 75vh;
+    margin-left: 60vh;
     font-size: 25px;
     font-family: "Comfortaa";
 }
@@ -15,10 +15,12 @@
 .links a {
     color: white;
     text-decoration: none;
-    padding-left: 70px;
+    padding-left: 65px;
+    display: flex;
+    align-items: center;
 }
 
-.links a:hover {
+.links a:hover{
     color: #FFE7E9;
     text-shadow: 0 3px 5px lightgray;
 }
@@ -26,4 +28,22 @@
 @font-face {
     font-family: 'Comfortaa';
     src: url('../assets/fonts/Comfortaa-VariableFont_wght.ttf') format('truetype');
+}
+
+.linkedin {
+    background-color: #AAC0EC;
+    border-color: #FFE7E9;
+    font-size: 20px;
+    color: white;
+    border-radius: 35px 35px 35px 35px;
+    width: 200px;
+    height: 45px;
+    margin-left:30px
+}
+
+.linkedin:hover {
+    transition-duration: 0.5s;
+    background-color: #FFE7E9;
+    border-color: white;
+    cursor: pointer;
 }
