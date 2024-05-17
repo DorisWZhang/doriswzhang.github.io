@@ -59,9 +59,9 @@ function Navbar() {
         <div className="navbar" id={expandNavbar ? "open" : "close"}>
             <div className="links">
                 <a className="pages">
-                    <NavLink className="home-link" onClick={() => handleLinkClick("home")} activeClassName="active"  to="/" > HOME</NavLink>
-                    <NavLink className="about-link" onClick={() => handleLinkClick("about")} activeClassName="active" > ABOUT </NavLink>
-                    <NavLink className="projects-link" onClick={() => handleLinkClick("projects")} activeClassName="active"  > PROJECTS </NavLink>
+                    <NavLink className="home-link" onClick={() => handleLinkClick("home")} to="/" > HOME</NavLink>
+                    <NavLink className="about-link" onClick={() => handleLinkClick("about")} > ABOUT </NavLink>
+                    <NavLink className="projects-link" onClick={() => handleLinkClick("projects")}  > PROJECTS </NavLink>
                     <NavLink className="resume-link" onClick={onResumeClick}> RESUME </NavLink>
                     <button className='linkedin' onClick={() => window.open('https://www.linkedin.com/in/doris-zhang-b3837a288/')}>LET'S CONNECT</button>  
             
