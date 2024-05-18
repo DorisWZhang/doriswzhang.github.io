@@ -9,9 +9,9 @@ function onResumeClick() {
 
 function Navbar() {
     const handleLinkClick = (id) => {
-        if (window.location.pathname !== "/doriswzhang.github.io") {
+        if (window.location.pathname !== "/") {
             // If not on home page, redirect to home page and scroll after it's loaded
-            window.location.href = "/doriswzhang.github.io";
+            window.location.href = "/";
             window.onload = () => {
             setTimeout(() => {
                 const element = document.getElementById(id);
@@ -43,7 +43,7 @@ function Navbar() {
 
 
     useEffect(() => {
-        if (window.location.pathname !== "/doriswzhang.github.io") {
+        if (window.location.pathname !== "/") {
             // If redirected from another page, scroll to the section after the home page is loaded
             const id = window.location.hash.substring(1);
             window.onload = () => {
@@ -59,7 +59,7 @@ function Navbar() {
         <div className="navbar" id={expandNavbar ? "open" : "close"}>
             <div className="links">
                 <a className="pages">
-                    <NavLink className="home-link" onClick={() => handleLinkClick("home")} to="/doriswzhang.github.io" > HOME</NavLink>
+                    <NavLink className="home-link" onClick={() => handleLinkClick("home")} to="/" > HOME</NavLink>
                     <NavLink className="about-link" onClick={() => handleLinkClick("about")} > ABOUT </NavLink>
                     <NavLink className="projects-link" onClick={() => handleLinkClick("projects")}  > PROJECTS </NavLink>
                     <NavLink className="resume-link" onClick={onResumeClick}> RESUME </NavLink>
