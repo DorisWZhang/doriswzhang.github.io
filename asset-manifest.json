@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/doriswzhang.github.io/static/css/main.572c2360.css",
-    "main.js": "/doriswzhang.github.io/static/js/main.2376dd7c.js",
+    "main.js": "/doriswzhang.github.io/static/js/main.d8b58339.js",
     "static/js/453.298f5782.chunk.js": "/doriswzhang.github.io/static/js/453.298f5782.chunk.js",
     "static/media/Headshot.jpg": "/doriswzhang.github.io/static/media/Headshot.a64ae81c2c45fc5f03c2.jpg",
     "static/media/FiraSans-ExtraLightItalic.ttf": "/doriswzhang.github.io/static/media/FiraSans-ExtraLightItalic.312e658828346456715f.ttf",
@@ -14,11 +14,11 @@
     "static/media/ReadBuddy.png": "/doriswzhang.github.io/static/media/ReadBuddy.045d76b49390a0a37475.png",
     "index.html": "/doriswzhang.github.io/index.html",
     "main.572c2360.css.map": "/doriswzhang.github.io/static/css/main.572c2360.css.map",
-    "main.2376dd7c.js.map": "/doriswzhang.github.io/static/js/main.2376dd7c.js.map",
+    "main.d8b58339.js.map": "/doriswzhang.github.io/static/js/main.d8b58339.js.map",
     "453.298f5782.chunk.js.map": "/doriswzhang.github.io/static/js/453.298f5782.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.572c2360.css",
-    "static/js/main.2376dd7c.js"
+    "static/js/main.d8b58339.js"
   ]
 }
