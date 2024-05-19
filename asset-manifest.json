@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/doriswzhang.github.io/static/css/main.572c2360.css",
+    "main.js": "/doriswzhang.github.io/static/js/main.2376dd7c.js",
+    "static/js/453.298f5782.chunk.js": "/doriswzhang.github.io/static/js/453.298f5782.chunk.js",
+    "static/media/Headshot.jpg": "/doriswzhang.github.io/static/media/Headshot.a64ae81c2c45fc5f03c2.jpg",
+    "static/media/FiraSans-ExtraLightItalic.ttf": "/doriswzhang.github.io/static/media/FiraSans-ExtraLightItalic.312e658828346456715f.ttf",
+    "static/media/FiraSans-ExtraLight.ttf": "/doriswzhang.github.io/static/media/FiraSans-ExtraLight.74170e10f7c08b0be984.ttf",
+    "static/media/Comfortaa-VariableFont_wght.ttf": "/doriswzhang.github.io/static/media/Comfortaa-VariableFont_wght.7b8c952927af2b0deacd.ttf",
+    "static/media/Mr.Monkey.png": "/doriswzhang.github.io/static/media/Mr.Monkey.3dba498f60b18211251d.png",
+    "static/media/Zhang_Doris_Resume.pdf": "/doriswzhang.github.io/static/media/Zhang_Doris_Resume.dc39f02f579899a4d95a.pdf",
+    "static/media/ConcertOne-Regular.ttf": "/doriswzhang.github.io/static/media/ConcertOne-Regular.646d19d3a58116d78c9c.ttf",
+    "static/media/DareVenture.png": "/doriswzhang.github.io/static/media/DareVenture.cb97068cb766d761fa11.png",
+    "static/media/ReadBuddy.png": "/doriswzhang.github.io/static/media/ReadBuddy.045d76b49390a0a37475.png",
+    "index.html": "/doriswzhang.github.io/index.html",
+    "main.572c2360.css.map": "/doriswzhang.github.io/static/css/main.572c2360.css.map",
+    "main.2376dd7c.js.map": "/doriswzhang.github.io/static/js/main.2376dd7c.js.map",
+    "453.298f5782.chunk.js.map": "/doriswzhang.github.io/static/js/453.298f5782.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.572c2360.css",
+    "static/js/main.2376dd7c.js"
+  ]
+}
