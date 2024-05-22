@@ -27,9 +27,9 @@ function Home() {
                     typewriter
                     .changeDelay(100)
                     .typeString("I am a ")
-                    .typeString("Science Student".italics())
+                    .typeString("Computer Science Student".italics())
                     .pauseFor(1500)
-                    .deleteChars(15)
+                    .deleteChars(24)
                     .typeString("Creator".italics())
                     .pauseFor(1500)
                     .start();
