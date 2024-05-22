@@ -62,7 +62,7 @@ function Navbar() {
                     <NavLink className="home-link" onClick={() => handleLinkClick("home")} to="/doriswz.github.io" > HOME</NavLink>
                     <NavLink className="about-link" onClick={() => handleLinkClick("about")} > ABOUT </NavLink>
                     <NavLink className="projects-link" onClick={() => handleLinkClick("projects")}  > PROJECTS </NavLink>
-                    <NavLink className="resume-link" onClick={onResumeClick}> RESUME </NavLink>
+                    <NavLink className="resume-link" onClick={onResumeClick}> RESUME </NavLink> 
                     <button className='linkedin' onClick={() => window.open('https://www.linkedin.com/in/doris-zhang-b3837a288/')}>LET'S CONNECT</button>  
             
                 </a>
