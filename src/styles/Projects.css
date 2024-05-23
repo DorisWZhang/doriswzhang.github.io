@@ -10,6 +10,7 @@
     padding: 0; /* Ensure padding is 0 */
     margin: 0; /* Ensure margin is 0 */
     
+    
   }
 
 
@@ -24,7 +25,7 @@
     font-size: 60px;
     font-weight: bolder;
   }
-  
+
 .projectList {
     width: 70vw;
     height: auto;
