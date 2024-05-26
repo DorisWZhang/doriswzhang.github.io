@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.21b1ef3c.css",
-    "main.js": "/static/js/main.c5824043.js",
+    "main.css": "/static/css/main.e9851d99.css",
+    "main.js": "/static/js/main.412c7935.js",
     "static/js/453.298f5782.chunk.js": "/static/js/453.298f5782.chunk.js",
     "static/media/Headshot.jpg": "/static/media/Headshot.a64ae81c2c45fc5f03c2.jpg",
+    "static/media/DareVenture_Home.png": "/static/media/DareVenture_Home.30ce88a635fe997d8bc7.png",
     "static/media/FiraSans-ExtraLightItalic.ttf": "/static/media/FiraSans-ExtraLightItalic.312e658828346456715f.ttf",
     "static/media/FiraSans-ExtraLight.ttf": "/static/media/FiraSans-ExtraLight.74170e10f7c08b0be984.ttf",
     "static/media/Comfortaa-VariableFont_wght.ttf": "/static/media/Comfortaa-VariableFont_wght.7b8c952927af2b0deacd.ttf",
@@ -13,12 +14,12 @@
     "static/media/DareVenture.png": "/static/media/DareVenture.cb97068cb766d761fa11.png",
     "static/media/ReadBuddy.png": "/static/media/ReadBuddy.045d76b49390a0a37475.png",
     "index.html": "/index.html",
-    "main.21b1ef3c.css.map": "/static/css/main.21b1ef3c.css.map",
-    "main.c5824043.js.map": "/static/js/main.c5824043.js.map",
+    "main.e9851d99.css.map": "/static/css/main.e9851d99.css.map",
+    "main.412c7935.js.map": "/static/js/main.412c7935.js.map",
     "453.298f5782.chunk.js.map": "/static/js/453.298f5782.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.21b1ef3c.css",
-    "static/js/main.c5824043.js"
+    "static/css/main.e9851d99.css",
+    "static/js/main.412c7935.js"
   ]
 }
