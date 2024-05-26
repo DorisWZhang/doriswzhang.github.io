@@ -13,17 +13,16 @@ function Navbar() {
             // If not on home page, redirect to home page and scroll after it's loaded
             window.location.href = "/";
             window.onload = () => {
-            setTimeout(() => {
-                const element = document.getElementById(id);
-                if (element) {
-                    window.scrollTo({
-                        top: element.offsetTop - 50,
-                        behavior: "smooth"
-                    });
-                }
-            }, 100); // Adjust the delay as needed
-        };
-            
+                setTimeout(() => {
+                    const element = document.getElementById(id);
+                    if (element) {
+                        window.scrollTo({
+                            top: element.offsetTop - 50,
+                            behavior: "smooth"
+                        });
+                    }
+                }, 100); // Adjust the delay as needed
+            };
         } else {
             // If on home page, scroll directly
             scrollToSection(id);
@@ -41,7 +40,6 @@ function Navbar() {
         }
     };
 
-
     useEffect(() => {
         if (window.location.pathname !== "/") {
             // If redirected from another page, scroll to the section after the home page is loaded
@@ -58,18 +56,16 @@ function Navbar() {
     return (
         <div className="navbar" id={expandNavbar ? "open" : "close"}>
             <div className="links">
-                <a className="pages">
+                <div className="pages">
                     <NavLink className="home-link" onClick={() => handleLinkClick("home")} to="/" > HOME</NavLink>
                     <NavLink className="about-link" onClick={() => handleLinkClick("about")} > ABOUT </NavLink>
                     <NavLink className="projects-link" onClick={() => handleLinkClick("projects")}  > PROJECTS </NavLink>
                     <NavLink className="resume-link" onClick={onResumeClick}> RESUME </NavLink>
-                    <button className='linkedin' onClick={() => window.open('https://www.linkedin.com/in/doris-zhang-b3837a288/')}>LET'S CONNECT</button>  
-            
-                </a>
-               </div>
+                </div>
+                <button className='linkedin' onClick={() => window.open('https://www.linkedin.com/in/doris-zhang-b3837a288/')}>LET'S CONNECT</button>
+            </div>
         </div>
     );
 }
 
 export default Navbar;
-

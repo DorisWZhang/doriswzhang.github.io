@@ -14,7 +14,7 @@ function ProjectDisplay() {
         <h1> {project.name}</h1>
         <div className="aboutproj">
           <div className="proj-image">
-            <img src={project.image} />
+            <img src={project.displayimage} />
           </div>
           <div className="desc">
             <b className="name">{project.name}</b>

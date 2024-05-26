@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import AboutMe from "./pages/About"
 import Projects from './pages/Projects';
 import ProjectDisplay from './pages/ProjectDisplay';
+import Footer from "./components/Footer"
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
           <Route path="/" element={<Home />}/>
           <Route path="/project/:id" element={<ProjectDisplay/>}/>
           <Route path='/projects' element={<Projects/>}/>
-        </Routes>
+        </Routes>    
     </Router>
       
     

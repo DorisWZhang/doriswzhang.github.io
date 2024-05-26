@@ -1,33 +1,60 @@
+/* Navbar.css */
+
 .navbar {
     height: 100px;
     width: 100%;
     background-color: #AAC0EC;
     position: fixed;
+    top: 0;
+    left: -2%; /* Consider adjusting this if necessary */
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+    align-items: center;
+    z-index: 1000;
+    transition: height 0.3s ease;
 }
 
 .links {
-    margin-top: 4vh;
-    margin-left: 60vh;
-    font-size: 25px;
-    font-family: "Comfortaa";
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.pages {
+    display: flex;
+    align-items: center;
+    gap: 30px;
 }
 
 .links a {
     color: white;
     text-decoration: none;
-    padding-left: 65px;
-    display: flex;
-    align-items: center;
+    position: relative;
+    font-size: 25px;
+    font-family: "Comfortaa", sans-serif;
+    padding: 0 15px;
 }
 
-.links a:hover{
+.links a::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    transform-origin: center;
+    transition: width 0.3s ease;
+}
+
+.links a:hover::after {
+    width: 100%;
+}
+
+.links a:hover {
     color: #FFE7E9;
     text-shadow: 0 3px 5px lightgray;
-}
-
-@font-face {
-    font-family: 'Comfortaa';
-    src: url('../assets/fonts/Comfortaa-VariableFont_wght.ttf') format('truetype');
 }
 
 .linkedin {
@@ -35,15 +62,21 @@
     border-color: #FFE7E9;
     font-size: 20px;
     color: white;
-    border-radius: 35px 35px 35px 35px;
+    border-radius: 35px;
     width: 200px;
     height: 45px;
-    margin-left:30px
+    cursor: pointer;
+    transition: background-color 0.5s, border-color 0.5s;
+    margin-left: 30px; /* Adjust margin to create spacing */
 }
 
 .linkedin:hover {
-    transition-duration: 0.5s;
     background-color: #FFE7E9;
     border-color: white;
     cursor: pointer;
+}
+
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('../assets/fonts/Comfortaa-VariableFont_wght.ttf') format('truetype');
 }

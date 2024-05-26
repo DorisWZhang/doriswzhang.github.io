@@ -8,11 +8,13 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import About from './About';
 import Projects from './Projects';
 import Resume from "../assets/Zhang_Doris_Resume.pdf"
+import Footer from '../components/Footer';
 
 
 function onResumeClick() {
   window.open(Resume);
 }
+
 
 function Home() {
 
@@ -59,7 +61,9 @@ function Home() {
       <div id="projects" className="projects">
         <Projects/>
       </div>
-    
+    <div>
+      <Footer/>
+    </div>
     </div>
   )
 }
