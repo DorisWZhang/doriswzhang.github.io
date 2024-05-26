@@ -6,12 +6,13 @@
     background-color: #AAC0EC;
     position: fixed;
     top: 0;
-    left: -2%; /* Consider adjusting this if necessary */
+    left: 0%; /* Consider adjusting this if necessary */
     display: flex;
     justify-content: flex-end; /* Align items to the right */
     align-items: center;
     z-index: 1000;
     transition: height 0.3s ease;
+    
 }
 
 .links {
@@ -60,14 +61,15 @@
 .linkedin {
     background-color: #AAC0EC;
     border-color: #FFE7E9;
-    font-size: 20px;
+    font-size: 19px;
     color: white;
     border-radius: 35px;
     width: 200px;
     height: 45px;
     cursor: pointer;
+    font-family: 'Comfortaa';
     transition: background-color 0.5s, border-color 0.5s;
-    margin-left: 30px; /* Adjust margin to create spacing */
+    margin-right: 30px; /* Adjust margin to create spacing */
 }
 
 .linkedin:hover {
