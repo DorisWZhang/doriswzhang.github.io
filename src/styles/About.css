@@ -54,3 +54,10 @@ p {
     src: url('../assets/fonts/Comfortaa-VariableFont_wght.ttf') format('truetype');
 }
 
+
+@media only screen and (max-width: 1300px) {
+    .about{
+        height:1200px;
+    }
+  }
+  
