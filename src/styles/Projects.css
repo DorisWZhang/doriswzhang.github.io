@@ -67,26 +67,31 @@
   .projectItem h1 {
     font-size: 35px;
   }
-
-
   @media only screen and (max-width: 1300px) {
+    .projects {
+      height: 1200px
+    }
     .projectList {
       grid-template-columns: 1fr 1fr;
+      width: 90vw;
+      row-gap: 75px;
     }
   }
   
   @media only screen and (max-width: 800px) {
-    .projectList {
-      grid-template-columns: 1fr;
+    .projects {
+      height: 1500px;
     }
-  }
-  
-  @media only screen and (max-width: 800px) {
+    .title{
+      margin-left: 0;
+    }
     .projectList {
       width: 100%;
+      grid-template-columns: 1fr;
+      gap:50px
     }
     .projectItem {
       width: 300px;
-      height: 300px;
+      max-width: none;
     }
   }
