@@ -8,7 +8,7 @@ function About() {
         <div id='about' className='about'>
             <div className='text'>
                 <h1 className='header'>
-                    Hello! ｡･:*˚:✧｡
+                    Hello! ☺
                 </h1>
                 <p className='description'>
                     👋 My name is <strong>Doris</strong>! <br/>

@@ -10,13 +10,11 @@ function Footer() {
     <div className="footer">
       <div className='bottom-centre'>
         <div className='thanks'>
-          Thanks for stopping by my portfolio!
+          Thanks for stopping by my portfolio! 𐙚
         </div>
         <div className='contact'>
         <Contact></Contact>
         </div>
-        
-         
         
         
         <div className = 'tag'>
