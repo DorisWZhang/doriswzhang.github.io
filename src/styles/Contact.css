@@ -66,7 +66,6 @@ input::placeholder {
 }
 
 .send{
-    
     margin-top: 25px;
     color: #AAC0EC;
     background-color: #AAC0EC;
@@ -78,4 +77,11 @@ input::placeholder {
     height: 45px;
     cursor: pointer;
     font-family: 'Comfortaa';
+    transition: background-color 0.5s, border-color 0.5s;
+}
+
+.send:hover {
+    background-color: #FFE7E9;
+    border-color: white;
+    cursor: pointer;
 }
