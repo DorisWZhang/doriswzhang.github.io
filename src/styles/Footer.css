@@ -1,20 +1,36 @@
 .footer {
-    background-color: #AAC0EC;
+    background-color: rgb(250, 249, 246);
     width: 100%;
-    height: 10vh;
+    padding-top:4%;
+    height: 70vh;
     position:relative;
+}
+
+.thanks {
+    font: 50px 'Comfortaa';
+    font-weight: bold;
+    color: #AAC0EC;
+    
+    margin-left:5%;
+    width:750px;
+    text-shadow: 0 4px 5px lightgray;
+}
+
+.contact {
+    margin-left: 46%;
+    margin-top: -5%
 }
 
 .tag {
     text-align: center;
     text-decoration: underline;
     position: absolute;
-    bottom: 25%;
+    bottom: 5%;
     left: 50%;
     transform: translateX(-50%); 
     /* account for the text's own width*/
     font-family: 'Comfortaa';
-    color: white;
+    color: #AAC0EC;
 }
 
 .sociaMedia {
