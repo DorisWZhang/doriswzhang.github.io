@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.275b4e83.css",
-    "main.js": "/static/js/main.d1af02dd.js",
+    "main.js": "/static/js/main.b4698880.js",
     "static/js/453.298f5782.chunk.js": "/static/js/453.298f5782.chunk.js",
     "static/media/Headshot.jpg": "/static/media/Headshot.a64ae81c2c45fc5f03c2.jpg",
     "static/media/DareVenture_Home.png": "/static/media/DareVenture_Home.30ce88a635fe997d8bc7.png",
@@ -15,11 +15,11 @@
     "static/media/ReadBuddy.png": "/static/media/ReadBuddy.045d76b49390a0a37475.png",
     "index.html": "/index.html",
     "main.275b4e83.css.map": "/static/css/main.275b4e83.css.map",
-    "main.d1af02dd.js.map": "/static/js/main.d1af02dd.js.map",
+    "main.b4698880.js.map": "/static/js/main.b4698880.js.map",
     "453.298f5782.chunk.js.map": "/static/js/453.298f5782.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.275b4e83.css",
-    "static/js/main.d1af02dd.js"
+    "static/js/main.b4698880.js"
   ]
 }
