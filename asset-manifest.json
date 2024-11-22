@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/static/css/main.7d5926c2.css",
-    "main.js": "/static/js/main.d6dbfaa8.js",
+    "main.js": "/static/js/main.2184d1be.js",
     "static/js/453.298f5782.chunk.js": "/static/js/453.298f5782.chunk.js",
     "static/media/Headshot.jpg": "/static/media/Headshot.a64ae81c2c45fc5f03c2.jpg",
     "static/media/DareVenture_Home.png": "/static/media/DareVenture_Home.30ce88a635fe997d8bc7.png",
     "static/media/FiraSans-ExtraLightItalic.ttf": "/static/media/FiraSans-ExtraLightItalic.312e658828346456715f.ttf",
     "static/media/FiraSans-ExtraLight.ttf": "/static/media/FiraSans-ExtraLight.74170e10f7c08b0be984.ttf",
     "static/media/Comfortaa-VariableFont_wght.ttf": "/static/media/Comfortaa-VariableFont_wght.7b8c952927af2b0deacd.ttf",
-    "static/media/Zhang_Doris_Resume.pdf": "/static/media/Zhang_Doris_Resume.02bc39c389adb3081599.pdf",
+    "static/media/Zhang_Doris_Resume.pdf": "/static/media/Zhang_Doris_Resume.595400558350c1b89a61.pdf",
     "static/media/Mr.Monkey.png": "/static/media/Mr.Monkey.3dba498f60b18211251d.png",
     "static/media/ConcertOne-Regular.ttf": "/static/media/ConcertOne-Regular.646d19d3a58116d78c9c.ttf",
     "static/media/DareVenture.png": "/static/media/DareVenture.cb97068cb766d761fa11.png",
     "static/media/ReadBuddy.png": "/static/media/ReadBuddy.045d76b49390a0a37475.png",
     "index.html": "/index.html",
     "main.7d5926c2.css.map": "/static/css/main.7d5926c2.css.map",
-    "main.d6dbfaa8.js.map": "/static/js/main.d6dbfaa8.js.map",
+    "main.2184d1be.js.map": "/static/js/main.2184d1be.js.map",
     "453.298f5782.chunk.js.map": "/static/js/453.298f5782.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7d5926c2.css",
-    "static/js/main.d6dbfaa8.js"
+    "static/js/main.2184d1be.js"
   ]
 }
