@@ -32,6 +32,9 @@ function Home() {
                     .typeString("Computer Science Student".italics())
                     .pauseFor(1500)
                     .deleteChars(24)
+                    .typeString("Software Engineer".italics())
+                    .pauseFor(1500)
+                    .deleteChars(17)
                     .typeString("Creator".italics())
                     .pauseFor(1500)
                     .start();
