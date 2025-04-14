@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.7d5926c2.css",
-    "main.js": "/static/js/main.52cc27a5.js",
+    "main.js": "/static/js/main.8d9fe4ec.js",
     "static/js/453.298f5782.chunk.js": "/static/js/453.298f5782.chunk.js",
-    "static/media/Headshot.jpg": "/static/media/Headshot.a64ae81c2c45fc5f03c2.jpg",
+    "static/media/Headshot.png": "/static/media/Headshot.c83cb2cc5f6965d502ac.png",
     "static/media/DareVenture_Home.png": "/static/media/DareVenture_Home.30ce88a635fe997d8bc7.png",
     "static/media/FiraSans-ExtraLightItalic.ttf": "/static/media/FiraSans-ExtraLightItalic.312e658828346456715f.ttf",
     "static/media/FiraSans-ExtraLight.ttf": "/static/media/FiraSans-ExtraLight.74170e10f7c08b0be984.ttf",
     "static/media/SymptomPage.png": "/static/media/SymptomPage.14e0a9335b37293080ab.png",
     "static/media/Comfortaa-VariableFont_wght.ttf": "/static/media/Comfortaa-VariableFont_wght.7b8c952927af2b0deacd.ttf",
-    "static/media/Zhang_Doris_Resume.pdf": "/static/media/Zhang_Doris_Resume.a0d4f7bdf8ce72799f5e.pdf",
+    "static/media/Zhang_Doris_Resume.pdf": "/static/media/Zhang_Doris_Resume.b2d9bdc5474c8a12b1b6.pdf",
     "static/media/Mr.Monkey.png": "/static/media/Mr.Monkey.3dba498f60b18211251d.png",
     "static/media/ConcertOne-Regular.ttf": "/static/media/ConcertOne-Regular.646d19d3a58116d78c9c.ttf",
     "static/media/brig.png": "/static/media/brig.7e8389d7e125044a6682.png",
@@ -17,11 +17,11 @@
     "static/media/ReadBuddy.png": "/static/media/ReadBuddy.045d76b49390a0a37475.png",
     "index.html": "/index.html",
     "main.7d5926c2.css.map": "/static/css/main.7d5926c2.css.map",
-    "main.52cc27a5.js.map": "/static/js/main.52cc27a5.js.map",
+    "main.8d9fe4ec.js.map": "/static/js/main.8d9fe4ec.js.map",
     "453.298f5782.chunk.js.map": "/static/js/453.298f5782.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7d5926c2.css",
-    "static/js/main.52cc27a5.js"
+    "static/js/main.8d9fe4ec.js"
   ]
 }
