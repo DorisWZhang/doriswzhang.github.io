@@ -1,5 +1,5 @@
 import React, { useRef, useEffect, useState } from 'react';
-import Headshot from '../assets/photos/Headshot.jpg';
+import Headshot from '../assets/photos/Headshot.png';
 import "../styles/About.css";
 
 function About() {
