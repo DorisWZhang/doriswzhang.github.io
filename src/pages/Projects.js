@@ -9,11 +9,19 @@ function Projects() {
     <div className="projects">
       <h1 className='title'> My Personal Projects</h1>
       <div className="projectList">
-      {ProjectList.map((project, idx) => {
-          return (
-            <ProjectItem id={idx} name={project.name} image={project.image} />
-          );
-        })}
+      {ProjectList.map((project, idx) => (
+        <div key={idx} className="projectItem">
+          <a 
+            href={project.link} 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="projectLink"
+          >
+            {project.name}
+          </a>
+          {" "}– {project.tech}
+        </div>
+      ))}
       </div>
     </div>
   );
